@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="info_box" wx:for="{{list}}" wx:key="id">
+    <view class="titles flex flex-fdr flex-aic">
+      <view class="reddot"></view>
+      <view class="title">{{item.title}}</view>
+    </view>
+    <view class="msg">{{item.msg}}</view>
+    <view class="time">{{item.time}}</view>
+  </view>
+</view>

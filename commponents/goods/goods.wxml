@@ -1,0 +1,29 @@
+<view class='goods_container'>
+  <block wx:if='{{"order"==goodtype}}'>
+    <view class='order_status_box flex flex-aic flex-jcsb'>
+      <view class='order_num'>{{goodInfo.ordernum}}</view>
+      <view class='order_status'>{{goodInfo.buy}}</view>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="kong"></view>
+  </block>
+  <view class='goods_main flex flex-aic flex-jcsb'>
+    <image src='{{goodInfo.url}}' class='goods_item_img'></image>
+    <view class='good_item_box flex flex-jcsb fle-aic'>
+      <view class='goods_item_info flex flex-fww flex-jcsb'>
+        <view class="goods_item_title line-clamp2">{{goodInfo.title}}</view>
+        <view class='order_price flex flex-aic' wx:if='{{"order"==goodtype}}'>
+          <image src="/image/mine/jinqianfu.png" style="width:32rpx;height:32rpx;margin-right:10rpx"></image>
+          <view class='order_price'>{{goodInfo.desc}}</view>
+        </view>
+        <view class="goods_item_desc line-clamp1" wx:else>{{goodInfo.desc}}</view>
+      </view>
+      <block wx:if='{{"collect"==goodtype}}'>
+        <view class='collect_icon flex flex-aic'>
+          <image src="/image/mine/shoucang.png"></image>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

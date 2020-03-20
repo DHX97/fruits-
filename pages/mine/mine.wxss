@@ -1,0 +1,89 @@
+.user_box {
+  width: 750rpx;
+  height: 278rpx;
+  background: linear-gradient(90deg, rgba(255, 220, 194, 0.0716) 0%, rgba(242, 113, 59, 0.0716) 100%);
+  position: relative;
+}
+
+.userInfoBox {
+  width: 690rpx;
+  margin: 0 30rpx;
+  padding-top: 42rpx;
+}
+
+.userAvatarUrl {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.userNickName {
+  margin-left: 28rpx;
+  font-size: 42rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: rgba(35, 32, 32, 1);
+}
+
+.huiyuan {
+  padding: 0 28rpx;
+  width: 634rpx;
+  height: 72rpx;
+  background-color: #4a453e;
+  position: absolute;
+  bottom: 0;
+  border-radius: 20rpx 20rpx 0 0;
+  left: 30rpx;
+}
+
+.huiyuantitle {
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: rgba(222, 222, 222, 1);
+  margin: 18rpx;
+}
+
+.btn {
+  width: 120rpx;
+  height: 42rpx;
+  border-radius: 42rpx;
+  background-color: #e1c89c;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: rgba(60, 56, 51, 1);
+}
+
+.list_box {
+  margin-top: 28rpx;
+}
+
+.list_item {
+  padding: 28rpx 30rpx;
+  width: 690rpx;
+}
+
+.item_title {
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: rgba(35, 32, 32, 1);
+}
+
+.desc {
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: rgba(139, 139, 139, 1);
+}
+.input_box{
+  background: rgba(244,244,244,1);
+  border-radius: 10rpx;
+  margin:24rpx 0;
+  padding: 10rpx 30rpx;
+  font-size: 34rpx;
+}
+.tip {
+font-size: 26rpx;
+font-family: PingFangSC-Regular,PingFang SC;
+font-weight: 400;
+color: rgba(199,199,199,1);
+}

@@ -1,0 +1,8 @@
+<view>
+
+  <view wx:for="{{newClass}}" wx:key="id">
+    <Goods good-info="{{item}}" goodtype="collect">
+    </Goods>
+  </view>
+
+</view>

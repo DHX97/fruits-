@@ -1,0 +1,126 @@
+.flex {
+  display: flex;
+}
+
+.flex-aic {
+  /* 定义项目在交叉轴上如何对齐 */
+  align-items: center;
+}
+
+.flex-jcc {
+  /* 定义在主轴上的对齐方式 */
+  justify-content: center;
+}
+
+.flex-jcsa {
+  justify-content: space-around;
+}
+
+.flex-jcsb {
+  justify-content: space-between;
+}
+
+.flex-fdc {
+  flex-direction: column;
+}
+
+.flex-fdr {
+  flex-direction: row;
+}
+
+.flex-fww {
+  flex-wrap: wrap;
+}
+
+.line-clamp2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.line-clamp1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.goods_container {
+  width: 690rpx;
+  margin: 0 30rpx;
+}
+
+.kong{
+  width: 100%;
+  height: 30rpx;
+}
+.goods_main {
+  width: 100%;
+}
+
+.goods_item_img {
+  width: 278rpx;
+  height: 178rpx;
+}
+
+.good_item_box {
+  width: 380rpx;
+  height: 178rpx;
+}
+
+.goods_item_info {
+  width: 100%;
+  height: 178rpx;
+}
+
+.goods_item_title {
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(35, 32, 32, 1);
+}
+
+.goods_item_desc {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  height: 40rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(139, 139, 139, 1);
+}
+
+.order_status_box {
+  width: 100%;
+  height: 94rpx;
+}
+
+.order_status {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(242, 113, 59, 1);
+}
+
+.order_num {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(139, 139, 139, 1);
+}
+
+.order_price {
+  font-size: 36rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(242, 113, 59, 1);
+}
+
+.collect_icon {
+  width: 76rpx;
+  height: 100%;
+}
+.collect_icon image{
+width: 48rpx;
+height: 48rpx;
+}

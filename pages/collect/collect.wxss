@@ -1,0 +1,31 @@
+.collect_box {
+  margin-top: 30rpx;
+}
+.collect_item {
+  width: 692rpx;
+  height: 158rpx;
+  margin: 0 30rpx 52rpx 28rpx;
+}
+.collect_title {
+  margin-left: 22rpx;
+  margin-right: 106rpx;
+  height: 158rpx;
+}
+.title1 {
+height:88rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: rgba(35, 32, 32, 1);
+  -webkit-line-clamp: 1;
+  margin-bottom: 30rpx;
+}
+
+.title2 {
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: rgba(139, 139, 139, 1);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}

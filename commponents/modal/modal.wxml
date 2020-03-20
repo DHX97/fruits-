@@ -1,0 +1,11 @@
+<view class="modal_box" wx:if="{{show}}">
+  <view class="zhezhao" catchtap="click" data-type="{{false}}"></view>
+  <view class="main_box">
+    <view class="main_title">{{title}}</view>
+    <slot name="after"></slot>
+    <view class="btn_group">
+      <view class="btn_style cancel_style" style="color:{{cancelColor}}" catchtap="click" data-type="{{false}}">{{cancelText}}</view>
+      <view class="btn_style confirm_style" style="color:{{confirmColor}}" catchtap="click"  data-type="{{true}}">{{confirmText}}</view>
+    </view>
+  </view>
+</view>

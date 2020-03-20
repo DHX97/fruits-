@@ -1,0 +1,19 @@
+<view>
+  <!-- <view>{{name}}</view>
+  <view>{{age>=18?'已经成年':'未成年'}}</view>
+  <view>所学学科</view>
+  <view wx:for="{{subject}}" wx:key="item">
+    {{item}}
+  </view>
+  <view>名字：{{goods.name}}</view>
+  <view>价格：{{goods.price}}</view>
+  <view>库存：{{goods.num}}</view>
+  <view wx:if="{{isTrue}}">
+    true
+  </view>
+  <view wx:else>
+    false
+  </view>
+  <view>{{isTrue?'是true':'是false'}}</view> -->
+  <Goods></Goods>
+</view>
